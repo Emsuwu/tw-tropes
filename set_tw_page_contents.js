@@ -27,7 +27,7 @@ function readAndSetData(targetID) {
                 let rating = 10
                 let synopsis = 'Line 1 of synopsis! Some more.\nLine 2 of synopsis!\nEtc.'
                 synopsis = '<p>' + synopsis.replaceAll('\n', '</p><p>') + '</p>'
-                let provider_url = 'https://myanimelist.net/anime/226/Elfen_Lied'
+                let provider_url = 'https://myanimelist.net/anime/1'
                 let provider_name = 'MyAnimeList'
 
                 document.getElementById("title").textContent = match["title_en"];
