@@ -7,7 +7,7 @@ function readAndSetData(targetID) {
     const loc = './Data/tw_database.csv'
 
     console.log(`Loading contents of ${targetID}`)
-    Papa.parse(loc, {
+    Papa.parse(csvURL, {
         download: true,
         header: true,
         skipEmptyLines: true, 
