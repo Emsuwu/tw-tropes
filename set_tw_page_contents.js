@@ -3,10 +3,10 @@ const titleID = urlParams.get("title")
 
 
 function readAndSetData(targetID) { 
-    const csvURL = 'https://raw.githubusercontent.com/Emsuwu/tw-tropes/refs/heads/main/Data/260202-backup.csv'
+    //const csvURL = 'https://raw.githubusercontent.com/Emsuwu/tw-tropes/refs/heads/main/Data/260202-backup.csv'
 
     console.log(`Loading contents of ${targetID}`)
-    Papa.parse("csvURL", {
+    Papa.parse("./Data/tw_database.csv", {
         download: true,
         header: true,
         skipEmptyLines: true, 
