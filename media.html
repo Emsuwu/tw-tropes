@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Icons/search-button.svg">
+    <title>TW Tropes</title>
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/content.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="topbar">
+        <div class="website-title">
+            TW Tropes
+        </div>
+        <div>
+            <div class="search-container">
+                <input class="header-search-input" placeholder="Search">
+                <a href="search.html"><button class="header-search-button"><img src="Icons/search-button.svg" class="header-search-button-icon"></button></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div>
+                <button class="notification-button">
+                    <div class="notification-dot">4</div>
+                    <img src="Icons/notification-bell.svg" class="notification-icon">
+                </button>
+            </div>
+            <div>
+                <button class="profile-button">
+                    <img src="Icons/profile.svg" class="profile-icon">
+                </button>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="page-content">
+
+        <div class="media-description">
+            <p class="media-description-title" id="title">
+                {title}
+            </p>
+            <p>
+                <hr>
+                <div id="thumbnail">
+                    <img src="Images/Thumbnails/placeholder.jpg" class="media-description-thumbnail">
+                </div>
+            </p>
+
+            <div class="media-description-stats">
+                <p>
+                    <div id="medium">
+                        <strong>Medium: </strong>{medium}<br>
+                    </div>
+                    <div id="rating">
+                        <strong>Rating: </strong>{rating}<br>
+                    </div>
+                </p>
+            </div>
+            <div id="synopsis">
+                <p>
+                    {synopsis}
+                </p>
+            </div>
+            <p class = "media-description-attribution" id="synopsis_attribution">
+                Synopsis provided by <a href="{provider_url}" target="_blank">{provider_name}</a>.
+            </p>
+        </div>
+
+        <div class="text-content">
+
+            <h1>Trigger Warnings</h1>
+            <hr>
+            <p>
+                <ul id="trigger_warnings">
+                    <li>{tw1}</li>
+                </ul>
+            </p>
+
+            <br>
+
+            <h1>Negative Representations</h1>
+            <hr>
+            <div id="negative_representations">
+                <p>
+                    <span class="text-content-subheading">{negative_representation}</span><br>
+                    {negative_representation_contents}
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="set_tw_page_contents.js"></script>
+</body>
+
+</html>

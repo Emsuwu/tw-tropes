@@ -1,0 +1,123 @@
+.page-content{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.media-description-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 14px;
+}
+.media-description-stats{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 7px;
+}
+.media-description-thumbnail{
+    width: 400px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+.media-description{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 16px;
+    padding-right: 8px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:  rgb(187, 187, 239);
+    width: 400px;
+    background-color: rgb(219, 219, 242);
+}
+.media-description-attribution{
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.text-content{
+    margin-top: 16px;
+    border-color: rgb(234, 234, 234);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+    width: 800px;
+    vertical-align: top;
+    font-weight: 400;
+}
+.text-content h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+.text-content p{
+    font-weight: 400;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4px;
+    margin:0;
+}
+.text-content hr{
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.text-content ul{
+    padding-left: 32px;
+    margin:0;
+}
+.text-content-subheading{
+    font-weight: 700;
+}
+.search-page-content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.search-page-result{
+    margin-top: 20px;
+    display: flex;
+    align-items: top;
+    gap: 20px;
+    width: 1000px;
+    border-style: solid;
+    border-color: #ffffff00;
+    transition-duration: 0.2s;
+    transition-property: all;
+    border-width: 1px;
+    border-radius: 6px;
+}
+.search-page-result img{
+    display: block;
+    width: 300px;
+    object-fit:fill;
+    border-radius: 6px;
+}
+.search-page-result p{
+    padding-top: 4px;
+    width: 650px;
+}
+.search-page-result br{
+    margin-bottom: 10px;
+}
+.search-page-result:hover{
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #6cbdff;
+}

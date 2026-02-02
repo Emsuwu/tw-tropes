@@ -1,0 +1,118 @@
+.topbar{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(123, 158, 255);
+}
+
+.website-title{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-left: 16px;
+}
+
+.search-container{
+    display:flex;
+    align-items: center;
+}
+
+.header-search-input{
+    min-width: 40px;
+    max-width: 600px;
+    width: 600px;
+    height: 36px;
+    border-radius: 18px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-search-button{
+    padding: 6px 9px;
+    background-color: white;
+    border-radius: 100%;
+    border-style: none; 
+    margin: 0;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.header-search-button,
+.header-search-input{
+    transition-duration: .2s;
+    transition-property: "background-color";
+}
+
+.header-search-button:hover,
+.header-search-input:hover
+{
+    background-color: rgb(213, 232, 255);
+}
+
+.header-search-button:active,
+.header-search-input:active{
+    background-color: rgb(161, 210, 255);
+}
+
+.header-search-input:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-search-button-icon{
+    width: 22px;
+    margin-top: 2px;
+}
+
+.profile{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.notification-icon,
+.profile-icon{
+    width: 30px;
+}
+
+.profile-button,
+.notification-button{
+    border-style: none;
+    border-radius: 18px;
+    padding: 2px 2px;
+    display:flex;
+    align-items: center;
+    margin-left: 8px;
+    cursor: pointer;
+    transition-duration: .2s;
+    transition-property: "background-color";
+    position: relative;
+}
+.profile-button:hover,
+.notification-button:hover{
+    background-color: rgb(213, 232, 255);
+}
+.profile-button:active,
+.notification-button:active{
+    background-color: rgb(161, 210, 255);
+}
+.notification-dot{
+    color:rgb(255, 255, 255);
+    background-color: rgb(221, 103, 103);
+    font-size: 16px;
+    position: absolute;
+    border-radius: 14px;
+    padding: 0px 5px 0px 5px;
+    top:-6px;
+    right:-9px;
+    z-index: 200;
+}
