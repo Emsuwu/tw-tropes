@@ -40,7 +40,7 @@ function readAndSetData(targetID) {
                 console.log(match["trigger_warnings"])
                 let formattedTWs = ''
                 if (match["trigger_warnings"] != ""){
-                    formattedTWs = '<li>' + match["trigger_warnings"].replaceAll('{newline}','</li><li>') + '</li>';
+                    formattedTWs = '<li>' + match["trigger_warnings"].replaceAll('$newline$','</li><li>') + '</li>';
                 }
                 else{
                     formattedTWs = '';
@@ -48,7 +48,7 @@ function readAndSetData(targetID) {
                 
                 document.getElementById("trigger_warnings").innerHTML = formattedTWs
 
-                let nrs = match["negative_representations"].split('{newline}');
+                let nrs = match["negative_representations"].split('$newline$');
                 let formattedNrs = []
                 let und = false
                 for (let nr of nrs) {
