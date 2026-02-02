@@ -7,6 +7,13 @@ function readAndSetData(targetID) {
     const csvPath = './Data/tw_database.csv'
 
     console.log(`Loading contents of ${targetID}`)
+
+    if (typeof Papa === 'undefined') {
+        console.error("PapaParse library not found. Retrying in 500ms...")
+        setTimeout(readAndSetData, 500)
+        return
+    }
+
     Papa.parse(csvURL, {
         download: true,
         header: true,
