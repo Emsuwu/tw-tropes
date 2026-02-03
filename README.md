@@ -1,5 +1,5 @@
-# [TW Tropes](tw.emsuwu.com)
-[tw.emsuwu.com](tw.emsuwu.com)
+# [TW Tropes](http://tw.emsuwu.com)
+[tw.emsuwu.com](http://tw.emsuwu.com)
 A website to list the triggering content in shows, anime, books etc. Currently all the data is stored in one CSV lol. I want to make it so that its stored in an online database and that people can contribute to it through the site.
 ## Roadmap
 
