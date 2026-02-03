@@ -79,12 +79,15 @@
     align-items: center;
     justify-content: end;
 }
+
+.github-icon,
 .notification-icon,
 .profile-icon{
     width: 30px;
 }
 
 .profile-button,
+.github-button,
 .notification-button{
     border-style: none;
     border-radius: 18px;
@@ -98,10 +101,12 @@
     position: relative;
 }
 .profile-button:hover,
+.github-button:hover,
 .notification-button:hover{
     background-color: rgb(213, 232, 255);
 }
 .profile-button:active,
+.github-buttom:active,
 .notification-button:active{
     background-color: rgb(161, 210, 255);
 }
