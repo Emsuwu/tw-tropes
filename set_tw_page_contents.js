@@ -1,7 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search)
 const titleID = urlParams.get("title")
 
-
 function readAndSetData(targetID) { 
     const csvURL = 'https://raw.githubusercontent.com/Emsuwu/tw-tropes/refs/heads/main/Data/tw_database.csv'
     const csvPath = 'Data/tw_database.csv'
