@@ -80,7 +80,10 @@
     justify-content: end;
 }
 
-.github-icon,
+.github-icon{
+    width:25px;
+    padding: 3px;
+}
 .notification-icon,
 .profile-icon{
     width: 30px;
