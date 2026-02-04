@@ -32,7 +32,7 @@ function readAndSetData(targetID) {
                 document.getElementById("title").textContent = match["title_en"];
                 document.getElementById("medium").innerHTML = `<strong>Medium: </strong>${match["medium"]}<br>`
                 document.getElementById("rating").innerHTML = `<strong>Rating: </strong>${10}<br>`
-                document.getElementById("thumbnail").innerHTML = `<img src="Images/Thumbnails/${match["thumbnail"]}" class="media-description-thumbnail">`
+                document.getElementById("thumbnail").innerHTML = `<img src="${match["thumbnail"]}" class="media-description-thumbnail">`
                 document.getElementById("synopsis").innerHTML = synopsis
                 document.getElementById("synopsis_attribution").innerHTML = `Synopsis provided by <a href="${provider_url}" target="_blank">${provider_name}</a>.`
                 
