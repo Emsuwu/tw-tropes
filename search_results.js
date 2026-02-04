@@ -13,7 +13,7 @@ function createResultElement(data){
     const template = `
     <div class="search-page-result">
         <div>
-            <a href="media.html?title=${titleID}"><img src="Images/Thumbnails/${thumbnail}"></a>
+            <a href="media.html?title=${titleID}"><img src="${thumbnail}"></a>
         </div>
         <div>
             <p>
