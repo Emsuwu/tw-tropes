@@ -51,7 +51,7 @@ function readAndSetData(targetID) {
                 let formattedNrs = []
                 let und = false
                 for (let nr of nrs) {
-                    let split = nr.split(':')
+                    let split = nr.split('$:$')
                     formattedNrs.push(`<p><span class="text-content-subheading">${split[0]}</span><br>${split[1]}</p>`)
                     if (split[0] == undefined || split[1] == undefined){
                         und = true
