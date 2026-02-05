@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Icons/search-button.svg">
+    <title>TW Tropes</title>
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/content.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="topbar">
+        <div class="website-title">
+            TW Tropes
+        </div>
+        <div>
+            <div class="search-container">
+                <input class="header-search-input" placeholder="Search" id="search_bar">
+                <button class="header-search-button" id="search_button"><img src="Icons/search-button.svg" class="header-search-button-icon"></button>
+            </div>
+        </div>
+        <div class="profile">
+
+            <div>
+                <button class="notification-button">
+                    <div class="notification-dot">4</div>
+                    <img src="Icons/notification-bell.svg" class="notification-icon">
+                </button>
+            </div>
+
+            <div>
+                <a href="https://github.com/Emsuwu/tw-tropes", target="_blank">
+                    <button class="github-button">
+                        <img src="Icons/github.svg" class="github-icon">
+                    </button>
+                </a>
+            </div>
+
+
+            <div>
+                <button class="profile-button">
+                    <img src="Icons/profile.svg" class="profile-icon">
+                </button>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="landing-box">
+            <p class="landing-title" id="title">
+                TW Tropes
+            </p>
+            <div class="landing-logo-text-flex">
+                <div id="landing-image">
+                    <img src="Images/logo.png" class="landing-image">
+                </div>
+                    <div class="landing-description">
+                        <h1>Purpose</h1><hr>
+                        <p>
+                            The idea behind this website is to
+                            allow you to look at the potentially
+                            triggering content within pieces of media
+                            to make an informed decision as to whether
+                            it is right for you. We also provide descriptions
+                            of negative representations within media, such as
+                            racist portrayals etc.
+                        </p>
+
+                        <h1>Progress</h1><hr>
+                        <p>
+                            This site is in development!
+                            See the 
+                            <a href="https://github.com/Emsuwu/tw-tropes?tab=readme-ov-file#tw-tropes" target="_blank">
+                                GitHub page's readme
+                            </a> 
+                            to see progress our and roadmap :3
+                        </p>
+                    </div>
+            </div>
+
+            <div class="landing-description-bottom">
+                <h1>
+                    Currently available media
+                </h1>
+                <hr>
+                <p>
+                    doctor-who-2005, 
+                    doctor-who-1963, 
+                    elfen-lied, 
+                    steins-gate, 
+                    steins-gate-vn,
+                    frieren, 
+                    snail,
+                    slug,
+                    carp-in-bathtub
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="search_query.js"></script>
+</body>
+
+</html>
