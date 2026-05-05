@@ -1,5 +1,5 @@
 # Disclaimer
-Very WIP. Needs a backend. All the data is just stored in the repo and fetched by the site. This was my first webdev project so it's a bit jank. But I definetely to come back to the idea, because I think something like this is very useful!
+Very WIP. Needs a backend (I definetely didn't understand what that was at the time). I'm still scared by the idea of needing a backend. All the data is just stored in the repo and fetched by the site. This was my first webdev project so it's a bit jank. But I definetely to come back to the idea, because I think something like this is very useful!
 # [TW Tropes](http://tw.emsuwu.com)
 A website to list the triggering content in shows, anime, books etc. Currently all the data is stored in one CSV lol. I want to make it so that its stored in an online database and that people can contribute to it through the site.
 [tw.emsuwu.com](http://tw.emsuwu.com)
